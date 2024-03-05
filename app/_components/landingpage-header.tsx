@@ -30,7 +30,9 @@ const LandingpageHeader = () => {
                 <Button className="hidden md:flex" variant="outline">
                     Login
                 </Button>
-                <Button className="hidden md:flex">Comece já</Button>
+                <Link href="/app/home">
+                    <Button className="hidden md:flex">Comece já</Button>
+                </Link>
             </div>
         </header>
     );
